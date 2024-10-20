@@ -70,14 +70,14 @@ Depois
 
 ```sh
 docker tag <tag do nome da imagem> <tag do usuario do docker hub>/<tag do nome da imagem>:<tag da versão>
-Exemplo: docker tag casa-de-eventos-react vapeprosper/casa-de-eventos-react:v.1
+Exemplo: docker tag casa-de-eventos-react mdsjr/casa-de-eventos-react:v.10
 ```
 
 Publicação no Docker Hub
 
 ```sh
 docker push <tag do usuario do docker hub>/<tag do nome da imagem>:<tag da versão>
-docker push vapeprosper/casa-de-eventos-react:v.1
+docker push mdsjr/casa-de-eventos-react:v.10
 ```
 
 ### Docker Hub
